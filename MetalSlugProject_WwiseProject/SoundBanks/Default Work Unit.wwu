@@ -1,6 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{8F945742-F4A9-49A1-8DB2-BE43A3057632}" SchemaVersion="119">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{8F945742-F4A9-49A1-8DB2-BE43A3057632}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{8F945742-F4A9-49A1-8DB2-BE43A3057632}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="SB_Game" ID="{C536395D-CDD8-4F8A-BA81-3FCB1CB3B6CA}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_cg1" ID="{76F5D04F-1D10-4031-BC95-475C2A11C5A8}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_shotgun" ID="{C9171B5B-46D4-4322-8162-AC4FFAEBC47D}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Voice_GameOver" ID="{1D5AC2D2-AA23-435A-BA17-6CCB23B05735}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Complete" ID="{E60D6359-2B2B-4389-B399-AFFA177C8294}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Throw" ID="{8974C550-CEA4-4535-94CE-466B8149018C}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_pause_fx_C_major" ID="{E5934EEC-D7D7-4721-9E87-58B1ECBFA087}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_play_fx" ID="{10E3B8AB-DFDD-4724-825D-38E14F8F0246}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_RND_Grenade" ID="{B6A779BF-DD9C-4870-97AC-65660028E0A5}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Voice_MSL" ID="{49FDBA1A-27D3-48E1-BF04-E9E0C662E3D9}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_RND_Footsteps" ID="{53E21688-E5B6-494C-9B5E-48F4AF481FCA}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Voice_Killer" ID="{70039A1B-9F64-496F-B0CD-C0B2ADFA5D74}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Flamethrower" ID="{FDE6EAC1-C96A-4A58-A978-BE6A4D1734BD}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_button04_Click" ID="{00999758-BF8B-4A7C-BDA9-CED940A9C1D7}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Voice_SuperKiller" ID="{214A2A30-F610-4BED-BC05-6ABC788D6E7F}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_ScoreBip" ID="{9B492C15-A534-4BF1-9FA9-EE74EC665241}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_ScoreText" ID="{AC9A71C1-8882-4C35-92DA-E81625C853E4}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_RND_Jump" ID="{B315831C-E542-4D2A-8E60-9BE11C3A7008}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Voice_Slayer" ID="{86C0E990-D9A7-4D7B-BE94-FF7F052A602C}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_button02_Hovered" ID="{1BD44F81-6C0B-4DD8-B951-C11C0C481B2E}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_RND_Damage" ID="{D4C331F4-361F-4E28-89D4-55A3B041D5D8}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_deathh" ID="{DF0298D5-CC79-4E32-AE20-00013D097FE9}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Voice_Complete" ID="{7FFF4057-2059-4E64-9B95-D56E1FC16521}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Voice_ShowBegins" ID="{B551E088-507B-4E65-A62E-26047BDC2188}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>
