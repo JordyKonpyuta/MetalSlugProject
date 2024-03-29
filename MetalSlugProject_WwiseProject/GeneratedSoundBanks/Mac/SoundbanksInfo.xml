@@ -23,7 +23,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="2799568783" Type="User" GUID="{C536395D-CDD8-4F8A-BA81-3FCB1CB3B6CA}" Language="SFX" Hash="{1B75E2D8-B98B-5BBF-95C7-F856323DCB35}">
+		<SoundBank Id="2799568783" Type="User" GUID="{C536395D-CDD8-4F8A-BA81-3FCB1CB3B6CA}" Language="SFX" Hash="{B2FBF7C7-556B-8B87-F5AA-E3E28604CE32}">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_Game</ObjectPath>
 			<ShortName>SB_Game</ShortName>
 			<Path>SB_Game.bnk</Path>
@@ -103,6 +103,18 @@
 				<File Id="317564460" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>pain1.WAV</ShortName>
 					<CachePath>SFX/pain1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="360322304" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>VoiceBis-001.wav</ShortName>
+					<CachePath>SFX/VoiceBis-001_818F3B66.wem</CachePath>
+				</File>
+				<File Id="361506820" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>VoiceBis-003.wav</ShortName>
+					<CachePath>SFX/VoiceBis-003_818F3B66.wem</CachePath>
+				</File>
+				<File Id="363135754" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>VoiceBis-002.wav</ShortName>
+					<CachePath>SFX/VoiceBis-002_818F3B66.wem</CachePath>
 				</File>
 				<File Id="364739478" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>die2.WAV</ShortName>
@@ -228,6 +240,10 @@
 					<ShortName>jump_07.WAV</ShortName>
 					<CachePath>SFX/jump_07_818F3B66.wem</CachePath>
 				</File>
+				<File Id="751792550" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>VoiceBis-006.wav</ShortName>
+					<CachePath>SFX/VoiceBis-006_818F3B66.wem</CachePath>
+				</File>
 				<File Id="793477493" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>explodemini.WAV</ShortName>
 					<CachePath>SFX/explodemini_818F3B66.wem</CachePath>
@@ -260,6 +276,10 @@
 					<ShortName>Voice-GameOver.WAV</ShortName>
 					<CachePath>SFX/Voice-GameOver_818F3B66.wem</CachePath>
 				</File>
+				<File Id="897037073" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>VoiceBis-004.wav</ShortName>
+					<CachePath>SFX/VoiceBis-004_818F3B66.wem</CachePath>
+				</File>
 				<File Id="911946931" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>button02_Hovered.WAV</ShortName>
 					<CachePath>SFX/button02_Hovered_818F3B66.wem</CachePath>
@@ -287,6 +307,10 @@
 				<File Id="983819369" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>1yell5.WAV</ShortName>
 					<CachePath>SFX/1yell5_818F3B66.wem</CachePath>
+				</File>
+				<File Id="985583315" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>VoiceBis-005.wav</ShortName>
+					<CachePath>SFX/VoiceBis-005_818F3B66.wem</CachePath>
 				</File>
 				<File Id="1021440774" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>pain3.WAV</ShortName>
@@ -442,9 +466,19 @@
 						<MediaRef Id="841064569"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1926036930" Name="Play_Voice_AssaultGun" ObjectPath="\Events\Default Work Unit\Play_Voice_AssaultGun" GUID="{16E3CCA0-1F79-4542-9829-F5972B0E0BDE}" DurationType="OneShot" DurationMin="1.5422902" DurationMax="1.5422902">
+					<MediaRefs>
+						<MediaRef Id="751792550"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2468645462" Name="Play_Voice_Complete" ObjectPath="\Events\Default Work Unit\Play_Voice_Complete" GUID="{7FFF4057-2059-4E64-9B95-D56E1FC16521}" DurationType="OneShot" DurationMin="1.359433" DurationMax="1.359433">
 					<MediaRefs>
 						<MediaRef Id="91812581"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4028436405" Name="Play_Voice_Flamethrower" ObjectPath="\Events\Default Work Unit\Play_Voice_Flamethrower" GUID="{0DABDA48-A7BF-4825-BFDB-7750F185B9BA}" DurationType="OneShot" DurationMin="1.0720862" DurationMax="1.0720862">
+					<MediaRefs>
+						<MediaRef Id="985583315"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1836769583" Name="Play_Voice_GameOver" ObjectPath="\Events\Default Work Unit\Play_Voice_GameOver" GUID="{1D5AC2D2-AA23-435A-BA17-6CCB23B05735}" DurationType="OneShot" DurationMin="1.0720862" DurationMax="1.0720862">
@@ -457,9 +491,29 @@
 						<MediaRef Id="624522425"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2220850401" Name="Play_Voice_MovementSpeed" ObjectPath="\Events\Default Work Unit\Play_Voice_MovementSpeed" GUID="{198B2D09-EEFE-4A9B-A5E0-16999D149C6F}" DurationType="OneShot" DurationMin="1.176576" DurationMax="1.176576">
+					<MediaRefs>
+						<MediaRef Id="361506820"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="660042077" Name="Play_Voice_MSL" ObjectPath="\Events\Default Work Unit\Play_Voice_MSL" GUID="{49FDBA1A-27D3-48E1-BF04-E9E0C662E3D9}" DurationType="OneShot" DurationMin="0.8369841" DurationMax="0.8369841">
 					<MediaRefs>
 						<MediaRef Id="732053061"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1673901746" Name="Play_Voice_Pistol" ObjectPath="\Events\Default Work Unit\Play_Voice_Pistol" GUID="{7726294D-573B-41B3-A04C-3C7307CC395A}" DurationType="OneShot" DurationMin="0.7586168" DurationMax="0.7586168">
+					<MediaRefs>
+						<MediaRef Id="360322304"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2443826918" Name="Play_Voice_ShootRate" ObjectPath="\Events\Default Work Unit\Play_Voice_ShootRate" GUID="{2F72AED6-A6E6-4128-9408-1C4C8C7FF22A}" DurationType="OneShot" DurationMin="1.1243311" DurationMax="1.1243311">
+					<MediaRefs>
+						<MediaRef Id="897037073"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="590043415" Name="Play_Voice_Shotgun" ObjectPath="\Events\Default Work Unit\Play_Voice_Shotgun" GUID="{533A871C-4D53-45C5-ACF8-D04EF5D05497}" DurationType="OneShot" DurationMin="0.889229" DurationMax="0.889229">
+					<MediaRefs>
+						<MediaRef Id="363135754"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2182652466" Name="Play_Voice_ShowBegins" ObjectPath="\Events\Default Work Unit\Play_Voice_ShowBegins" GUID="{B551E088-507B-4E65-A62E-26047BDC2188}" DurationType="OneShot" DurationMin="2.0908616" DurationMax="2.0908616">
@@ -480,5 +534,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{EEB28DF9-4509-FE03-5942-FFBD8FE1FA1D}</FileHash>
+	<FileHash>{F1E4726B-047A-119E-318D-9000082EAAF1}</FileHash>
 </SoundBanksInfo>

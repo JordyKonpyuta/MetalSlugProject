@@ -56,7 +56,7 @@
     "Type": "User",
     "GUID": "{C536395D-CDD8-4F8A-BA81-3FCB1CB3B6CA}",
     "Language": "SFX",
-    "Hash": "{1B75E2D8-B98B-5BBF-95C7-F856323DCB35}",
+    "Hash": "{B2FBF7C7-556B-8B87-F5AA-E3E28604CE32}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Game",
     "ShortName": "SB_Game",
     "Path": "SB_Game.bnk",
@@ -212,6 +212,30 @@
       "Location": "Memory",
       "ShortName": "pain1.WAV",
       "CachePath": "SFX/pain1_818F3B66.wem"
+     },
+     {
+      "Id": "360322304",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "VoiceBis-001.wav",
+      "CachePath": "SFX/VoiceBis-001_818F3B66.wem"
+     },
+     {
+      "Id": "361506820",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "VoiceBis-003.wav",
+      "CachePath": "SFX/VoiceBis-003_818F3B66.wem"
+     },
+     {
+      "Id": "363135754",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "VoiceBis-002.wav",
+      "CachePath": "SFX/VoiceBis-002_818F3B66.wem"
      },
      {
       "Id": "364739478",
@@ -462,6 +486,14 @@
       "CachePath": "SFX/jump_07_818F3B66.wem"
      },
      {
+      "Id": "751792550",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "VoiceBis-006.wav",
+      "CachePath": "SFX/VoiceBis-006_818F3B66.wem"
+     },
+     {
       "Id": "793477493",
       "Language": "SFX",
       "Streaming": "false",
@@ -526,6 +558,14 @@
       "CachePath": "SFX/Voice-GameOver_818F3B66.wem"
      },
      {
+      "Id": "897037073",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "VoiceBis-004.wav",
+      "CachePath": "SFX/VoiceBis-004_818F3B66.wem"
+     },
+     {
       "Id": "911946931",
       "Language": "SFX",
       "Streaming": "false",
@@ -580,6 +620,14 @@
       "Location": "Memory",
       "ShortName": "1yell5.WAV",
       "CachePath": "SFX/1yell5_818F3B66.wem"
+     },
+     {
+      "Id": "985583315",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "VoiceBis-005.wav",
+      "CachePath": "SFX/VoiceBis-005_818F3B66.wem"
      },
      {
       "Id": "1021440774",
@@ -1011,6 +1059,20 @@
       ]
      },
      {
+      "Id": "1926036930",
+      "Name": "Play_Voice_AssaultGun",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Voice_AssaultGun",
+      "GUID": "{16E3CCA0-1F79-4542-9829-F5972B0E0BDE}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.5422902",
+      "DurationMax": "1.5422902",
+      "MediaRefs": [
+       {
+        "Id": "751792550"
+       }
+      ]
+     },
+     {
       "Id": "2468645462",
       "Name": "Play_Voice_Complete",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Voice_Complete",
@@ -1021,6 +1083,20 @@
       "MediaRefs": [
        {
         "Id": "91812581"
+       }
+      ]
+     },
+     {
+      "Id": "4028436405",
+      "Name": "Play_Voice_Flamethrower",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Voice_Flamethrower",
+      "GUID": "{0DABDA48-A7BF-4825-BFDB-7750F185B9BA}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.0720862",
+      "DurationMax": "1.0720862",
+      "MediaRefs": [
+       {
+        "Id": "985583315"
        }
       ]
      },
@@ -1053,6 +1129,20 @@
       ]
      },
      {
+      "Id": "2220850401",
+      "Name": "Play_Voice_MovementSpeed",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Voice_MovementSpeed",
+      "GUID": "{198B2D09-EEFE-4A9B-A5E0-16999D149C6F}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.176576",
+      "DurationMax": "1.176576",
+      "MediaRefs": [
+       {
+        "Id": "361506820"
+       }
+      ]
+     },
+     {
       "Id": "660042077",
       "Name": "Play_Voice_MSL",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Voice_MSL",
@@ -1063,6 +1153,48 @@
       "MediaRefs": [
        {
         "Id": "732053061"
+       }
+      ]
+     },
+     {
+      "Id": "1673901746",
+      "Name": "Play_Voice_Pistol",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Voice_Pistol",
+      "GUID": "{7726294D-573B-41B3-A04C-3C7307CC395A}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.7586168",
+      "DurationMax": "0.7586168",
+      "MediaRefs": [
+       {
+        "Id": "360322304"
+       }
+      ]
+     },
+     {
+      "Id": "2443826918",
+      "Name": "Play_Voice_ShootRate",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Voice_ShootRate",
+      "GUID": "{2F72AED6-A6E6-4128-9408-1C4C8C7FF22A}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.1243311",
+      "DurationMax": "1.1243311",
+      "MediaRefs": [
+       {
+        "Id": "897037073"
+       }
+      ]
+     },
+     {
+      "Id": "590043415",
+      "Name": "Play_Voice_Shotgun",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Voice_Shotgun",
+      "GUID": "{533A871C-4D53-45C5-ACF8-D04EF5D05497}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.889229",
+      "DurationMax": "0.889229",
+      "MediaRefs": [
+       {
+        "Id": "363135754"
        }
       ]
      },
@@ -1111,6 +1243,6 @@
     ]
    }
   ],
-  "FileHash": "{4108507D-4694-63BB-C105-8A6D809D5D8F}"
+  "FileHash": "{527864E4-48AC-8AC9-4357-A6D8249C0234}"
  }
 }
