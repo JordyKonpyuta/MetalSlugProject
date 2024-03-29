@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2799568783" Type="User" GUID="{C536395D-CDD8-4F8A-BA81-3FCB1CB3B6CA}" Language="SFX" Hash="{43238CE9-3A06-B366-075C-8A16D875DD70}">
+		<SoundBank Id="2799568783" Type="User" GUID="{C536395D-CDD8-4F8A-BA81-3FCB1CB3B6CA}" Language="SFX" Hash="{1B75E2D8-B98B-5BBF-95C7-F856323DCB35}">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_Game</ObjectPath>
 			<ShortName>SB_Game</ShortName>
 			<Path>SB_Game.bnk</Path>
@@ -14,17 +14,49 @@
 					<ShortName>pain2.WAV</ShortName>
 					<CachePath>SFX/pain2_818F3B66.wem</CachePath>
 				</File>
+				<File Id="36345925" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>3yell2.WAV</ShortName>
+					<CachePath>SFX/3yell2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="37187429" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>1yell12.WAV</ShortName>
+					<CachePath>SFX/1yell12_818F3B66.wem</CachePath>
+				</File>
 				<File Id="91812581" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Voice-Complete.WAV</ShortName>
 					<CachePath>SFX/Voice-Complete_818F3B66.wem</CachePath>
+				</File>
+				<File Id="95903692" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>HappyCrowd-02.WAV</ShortName>
+					<CachePath>SFX/HappyCrowd-02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="108728840" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>3yell6.WAV</ShortName>
+					<CachePath>SFX/3yell6_818F3B66.wem</CachePath>
+				</File>
+				<File Id="115719041" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>HappyCrowd-01.WAV</ShortName>
+					<CachePath>SFX/HappyCrowd-01_818F3B66.wem</CachePath>
 				</File>
 				<File Id="140491346" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>deathh.WAV</ShortName>
 					<CachePath>SFX/deathh_818F3B66.wem</CachePath>
 				</File>
+				<File Id="149771623" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>1yell1.WAV</ShortName>
+					<CachePath>SFX/1yell1_818F3B66.wem</CachePath>
+				</File>
 				<File Id="167297731" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>jump_04.WAV</ShortName>
 					<CachePath>SFX/jump_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="168316922" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>3yell14.WAV</ShortName>
+					<CachePath>SFX/3yell14_818F3B66.wem</CachePath>
+				</File>
+				<File Id="252825721" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>3yell9.WAV</ShortName>
+					<CachePath>SFX/3yell9_818F3B66.wem</CachePath>
 				</File>
 				<File Id="254471246" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>die1.WAV</ShortName>
@@ -37,6 +69,10 @@
 				<File Id="304463379" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>jump_09.WAV</ShortName>
 					<CachePath>SFX/jump_09_818F3B66.wem</CachePath>
+				</File>
+				<File Id="307497973" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>1yell11.WAV</ShortName>
+					<CachePath>SFX/1yell11_818F3B66.wem</CachePath>
 				</File>
 				<File Id="313206133" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>cg1.WAV</ShortName>
@@ -66,6 +102,10 @@
 					<ShortName>jump_10.WAV</ShortName>
 					<CachePath>SFX/jump_10_818F3B66.wem</CachePath>
 				</File>
+				<File Id="417806910" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>1yell14.WAV</ShortName>
+					<CachePath>SFX/1yell14_818F3B66.wem</CachePath>
+				</File>
 				<File Id="420441049" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>jump_08.WAV</ShortName>
 					<CachePath>SFX/jump_08_818F3B66.wem</CachePath>
@@ -89,6 +129,10 @@
 				<File Id="488038372" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ScoreText.WAV</ShortName>
 					<CachePath>SFX/ScoreText_818F3B66.wem</CachePath>
+				</File>
+				<File Id="491097739" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>1yell15.WAV</ShortName>
+					<CachePath>SFX/1yell15_818F3B66.wem</CachePath>
 				</File>
 				<File Id="516714352" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>button04_Click.WAV</ShortName>
@@ -130,9 +174,21 @@
 					<ShortName>explode.WAV</ShortName>
 					<CachePath>SFX/explode_818F3B66.wem</CachePath>
 				</File>
+				<File Id="697027016" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>3yell1.WAV</ShortName>
+					<CachePath>SFX/3yell1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="702231003" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>1yell6.WAV</ShortName>
+					<CachePath>SFX/1yell6_818F3B66.wem</CachePath>
+				</File>
 				<File Id="702497123" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>pause-fx_C_major.WAV</ShortName>
 					<CachePath>SFX/pause-fx_C_major_818F3B66.wem</CachePath>
+				</File>
+				<File Id="706070915" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>1yell13.WAV</ShortName>
+					<CachePath>SFX/1yell13_818F3B66.wem</CachePath>
 				</File>
 				<File Id="724277290" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>shotgun.WAV</ShortName>
@@ -162,6 +218,18 @@
 					<ShortName>Voice-ShowBegins.WAV</ShortName>
 					<CachePath>SFX/Voice-ShowBegins_818F3B66.wem</CachePath>
 				</File>
+				<File Id="826384347" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>1yell10.WAV</ShortName>
+					<CachePath>SFX/1yell10_818F3B66.wem</CachePath>
+				</File>
+				<File Id="836733152" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>1yell2.WAV</ShortName>
+					<CachePath>SFX/1yell2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="841064569" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UnhappyCrowd.WAV</ShortName>
+					<CachePath>SFX/UnhappyCrowd_818F3B66.wem</CachePath>
+				</File>
 				<File Id="872887986" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>play-fx.WAV</ShortName>
 					<CachePath>SFX/play-fx_818F3B66.wem</CachePath>
@@ -173,6 +241,10 @@
 				<File Id="911946931" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>button02_Hovered.WAV</ShortName>
 					<CachePath>SFX/button02_Hovered_818F3B66.wem</CachePath>
+				</File>
+				<File Id="940501626" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>1yell7.WAV</ShortName>
+					<CachePath>SFX/1yell7_818F3B66.wem</CachePath>
 				</File>
 				<File Id="947724833" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>jump_06.WAV</ShortName>
@@ -189,6 +261,10 @@
 				<File Id="973609806" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>stepstone_7.WAV</ShortName>
 					<CachePath>SFX/stepstone_7_818F3B66.wem</CachePath>
+				</File>
+				<File Id="983819369" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>1yell5.WAV</ShortName>
+					<CachePath>SFX/1yell5_818F3B66.wem</CachePath>
 				</File>
 				<File Id="1021440774" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>pain3.WAV</ShortName>
@@ -240,6 +316,15 @@
 						<MediaRef Id="872887986"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1929006870" Name="Play_RND_BurnEnnemi" ObjectPath="\Events\Default Work Unit\Play_RND_BurnEnnemi" GUID="{227836EB-5518-4AF7-8BB6-927F9E05C227}" DurationType="OneShot" DurationMin="1.5" DurationMax="2.5">
+					<MediaRefs>
+						<MediaRef Id="36345925"/>
+						<MediaRef Id="108728840"/>
+						<MediaRef Id="168316922"/>
+						<MediaRef Id="252825721"/>
+						<MediaRef Id="697027016"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="461591166" Name="Play_RND_Damage" ObjectPath="\Events\Default Work Unit\Play_RND_Damage" GUID="{D4C331F4-361F-4E28-89D4-55A3B041D5D8}" DurationType="OneShot" DurationMin="0.5239909" DurationMax="1.1378912">
 					<MediaRefs>
 						<MediaRef Id="24552206"/>
@@ -250,6 +335,25 @@
 						<MediaRef Id="558141304"/>
 						<MediaRef Id="813363617"/>
 						<MediaRef Id="1021440774"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3997396046" Name="Play_RND_DamageEnnemi" ObjectPath="\Events\Default Work Unit\Play_RND_DamageEnnemi" GUID="{FDC329C3-DA46-4C74-8857-EFF5B210ED78}" DurationType="OneShot" DurationMin="1" DurationMax="1.5">
+					<MediaRefs>
+						<MediaRef Id="149771623"/>
+						<MediaRef Id="702231003"/>
+						<MediaRef Id="836733152"/>
+						<MediaRef Id="940501626"/>
+						<MediaRef Id="983819369"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1317092553" Name="Play_RND_DeathEnnemi" ObjectPath="\Events\Default Work Unit\Play_RND_DeathEnnemi" GUID="{6649CF6E-F9F3-49E1-8A97-EB61CCE65325}" DurationType="OneShot" DurationMin="1" DurationMax="2">
+					<MediaRefs>
+						<MediaRef Id="37187429"/>
+						<MediaRef Id="307497973"/>
+						<MediaRef Id="417806910"/>
+						<MediaRef Id="491097739"/>
+						<MediaRef Id="706070915"/>
+						<MediaRef Id="826384347"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3636338178" Name="Play_RND_Footsteps" ObjectPath="\Events\Default Work Unit\Play_RND_Footsteps" GUID="{53E21688-E5B6-494C-9B5E-48F4AF481FCA}" DurationType="OneShot" DurationMin="0.37501132" DurationMax="0.41795918">
@@ -268,6 +372,12 @@
 					<MediaRefs>
 						<MediaRef Id="669099702"/>
 						<MediaRef Id="793477493"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="643838288" Name="Play_RND_HappyCrowd" ObjectPath="\Events\Default Work Unit\Play_RND_HappyCrowd" GUID="{A803B854-4469-4B83-A72B-A11DB22FFDCF}" DurationType="OneShot" DurationMin="1.192875" DurationMax="1.8808163">
+					<MediaRefs>
+						<MediaRef Id="95903692"/>
+						<MediaRef Id="115719041"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2655222125" Name="Play_RND_Jump" ObjectPath="\Events\Default Work Unit\Play_RND_Jump" GUID="{B315831C-E542-4D2A-8E60-9BE11C3A7008}" DurationType="OneShot" DurationMin="0.15145124" DurationMax="0.6177324">
@@ -303,6 +413,11 @@
 				<Event Id="1977644338" Name="Play_Throw" ObjectPath="\Events\Default Work Unit\Play_Throw" GUID="{8974C550-CEA4-4535-94CE-466B8149018C}" DurationType="OneShot" DurationMin="0.672" DurationMax="0.672">
 					<MediaRefs>
 						<MediaRef Id="576049388"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1609861566" Name="Play_UnhappyCrowd" ObjectPath="\Events\Default Work Unit\Play_UnhappyCrowd" GUID="{BFAC2C78-4221-437D-A23E-200E5DEDFE35}" DurationType="OneShot" DurationMin="2.1685834" DurationMax="2.1685834">
+					<MediaRefs>
+						<MediaRef Id="841064569"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2468645462" Name="Play_Voice_Complete" ObjectPath="\Events\Default Work Unit\Play_Voice_Complete" GUID="{7FFF4057-2059-4E64-9B95-D56E1FC16521}" DurationType="OneShot" DurationMin="1.359433" DurationMax="1.359433">
@@ -343,5 +458,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{160BCF12-2A67-50D0-7C9A-42F4796BFFB4}</FileHash>
+	<FileHash>{71324C72-45BD-C455-18AC-FCF1DD2B3504}</FileHash>
 </SoundBanksInfo>

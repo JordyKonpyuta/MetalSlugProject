@@ -56,7 +56,7 @@
     "Type": "User",
     "GUID": "{C536395D-CDD8-4F8A-BA81-3FCB1CB3B6CA}",
     "Language": "SFX",
-    "Hash": "{43238CE9-3A06-B366-075C-8A16D875DD70}",
+    "Hash": "{1B75E2D8-B98B-5BBF-95C7-F856323DCB35}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Game",
     "ShortName": "SB_Game",
     "Path": "SB_Game.bnk",
@@ -78,12 +78,52 @@
       "CachePath": "SFX/pain2_818F3B66.wem"
      },
      {
+      "Id": "36345925",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "3yell2.WAV",
+      "CachePath": "SFX/3yell2_818F3B66.wem"
+     },
+     {
+      "Id": "37187429",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "1yell12.WAV",
+      "CachePath": "SFX/1yell12_818F3B66.wem"
+     },
+     {
       "Id": "91812581",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Voice-Complete.WAV",
       "CachePath": "SFX/Voice-Complete_818F3B66.wem"
+     },
+     {
+      "Id": "95903692",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HappyCrowd-02.WAV",
+      "CachePath": "SFX/HappyCrowd-02_818F3B66.wem"
+     },
+     {
+      "Id": "108728840",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "3yell6.WAV",
+      "CachePath": "SFX/3yell6_818F3B66.wem"
+     },
+     {
+      "Id": "115719041",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HappyCrowd-01.WAV",
+      "CachePath": "SFX/HappyCrowd-01_818F3B66.wem"
      },
      {
       "Id": "140491346",
@@ -94,12 +134,36 @@
       "CachePath": "SFX/deathh_818F3B66.wem"
      },
      {
+      "Id": "149771623",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "1yell1.WAV",
+      "CachePath": "SFX/1yell1_818F3B66.wem"
+     },
+     {
       "Id": "167297731",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "jump_04.WAV",
       "CachePath": "SFX/jump_04_818F3B66.wem"
+     },
+     {
+      "Id": "168316922",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "3yell14.WAV",
+      "CachePath": "SFX/3yell14_818F3B66.wem"
+     },
+     {
+      "Id": "252825721",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "3yell9.WAV",
+      "CachePath": "SFX/3yell9_818F3B66.wem"
      },
      {
       "Id": "254471246",
@@ -124,6 +188,14 @@
       "Location": "Memory",
       "ShortName": "jump_09.WAV",
       "CachePath": "SFX/jump_09_818F3B66.wem"
+     },
+     {
+      "Id": "307497973",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "1yell11.WAV",
+      "CachePath": "SFX/1yell11_818F3B66.wem"
      },
      {
       "Id": "313206133",
@@ -182,6 +254,14 @@
       "CachePath": "SFX/jump_10_818F3B66.wem"
      },
      {
+      "Id": "417806910",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "1yell14.WAV",
+      "CachePath": "SFX/1yell14_818F3B66.wem"
+     },
+     {
       "Id": "420441049",
       "Language": "SFX",
       "Streaming": "false",
@@ -228,6 +308,14 @@
       "Location": "Memory",
       "ShortName": "ScoreText.WAV",
       "CachePath": "SFX/ScoreText_818F3B66.wem"
+     },
+     {
+      "Id": "491097739",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "1yell15.WAV",
+      "CachePath": "SFX/1yell15_818F3B66.wem"
      },
      {
       "Id": "516714352",
@@ -310,12 +398,36 @@
       "CachePath": "SFX/explode_818F3B66.wem"
      },
      {
+      "Id": "697027016",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "3yell1.WAV",
+      "CachePath": "SFX/3yell1_818F3B66.wem"
+     },
+     {
+      "Id": "702231003",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "1yell6.WAV",
+      "CachePath": "SFX/1yell6_818F3B66.wem"
+     },
+     {
       "Id": "702497123",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "pause-fx_C_major.WAV",
       "CachePath": "SFX/pause-fx_C_major_818F3B66.wem"
+     },
+     {
+      "Id": "706070915",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "1yell13.WAV",
+      "CachePath": "SFX/1yell13_818F3B66.wem"
      },
      {
       "Id": "724277290",
@@ -374,6 +486,30 @@
       "CachePath": "SFX/Voice-ShowBegins_818F3B66.wem"
      },
      {
+      "Id": "826384347",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "1yell10.WAV",
+      "CachePath": "SFX/1yell10_818F3B66.wem"
+     },
+     {
+      "Id": "836733152",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "1yell2.WAV",
+      "CachePath": "SFX/1yell2_818F3B66.wem"
+     },
+     {
+      "Id": "841064569",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UnhappyCrowd.WAV",
+      "CachePath": "SFX/UnhappyCrowd_818F3B66.wem"
+     },
+     {
       "Id": "872887986",
       "Language": "SFX",
       "Streaming": "false",
@@ -396,6 +532,14 @@
       "Location": "Memory",
       "ShortName": "button02_Hovered.WAV",
       "CachePath": "SFX/button02_Hovered_818F3B66.wem"
+     },
+     {
+      "Id": "940501626",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "1yell7.WAV",
+      "CachePath": "SFX/1yell7_818F3B66.wem"
      },
      {
       "Id": "947724833",
@@ -428,6 +572,14 @@
       "Location": "Memory",
       "ShortName": "stepstone_7.WAV",
       "CachePath": "SFX/stepstone_7_818F3B66.wem"
+     },
+     {
+      "Id": "983819369",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "1yell5.WAV",
+      "CachePath": "SFX/1yell5_818F3B66.wem"
      },
      {
       "Id": "1021440774",
@@ -560,6 +712,32 @@
       ]
      },
      {
+      "Id": "1929006870",
+      "Name": "Play_RND_BurnEnnemi",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_RND_BurnEnnemi",
+      "GUID": "{227836EB-5518-4AF7-8BB6-927F9E05C227}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.5",
+      "DurationMax": "2.5",
+      "MediaRefs": [
+       {
+        "Id": "36345925"
+       },
+       {
+        "Id": "108728840"
+       },
+       {
+        "Id": "168316922"
+       },
+       {
+        "Id": "252825721"
+       },
+       {
+        "Id": "697027016"
+       }
+      ]
+     },
+     {
       "Id": "461591166",
       "Name": "Play_RND_Damage",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_RND_Damage",
@@ -591,6 +769,61 @@
        },
        {
         "Id": "1021440774"
+       }
+      ]
+     },
+     {
+      "Id": "3997396046",
+      "Name": "Play_RND_DamageEnnemi",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_RND_DamageEnnemi",
+      "GUID": "{FDC329C3-DA46-4C74-8857-EFF5B210ED78}",
+      "DurationType": "OneShot",
+      "DurationMin": "1",
+      "DurationMax": "1.5",
+      "MediaRefs": [
+       {
+        "Id": "149771623"
+       },
+       {
+        "Id": "702231003"
+       },
+       {
+        "Id": "836733152"
+       },
+       {
+        "Id": "940501626"
+       },
+       {
+        "Id": "983819369"
+       }
+      ]
+     },
+     {
+      "Id": "1317092553",
+      "Name": "Play_RND_DeathEnnemi",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_RND_DeathEnnemi",
+      "GUID": "{6649CF6E-F9F3-49E1-8A97-EB61CCE65325}",
+      "DurationType": "OneShot",
+      "DurationMin": "1",
+      "DurationMax": "2",
+      "MediaRefs": [
+       {
+        "Id": "37187429"
+       },
+       {
+        "Id": "307497973"
+       },
+       {
+        "Id": "417806910"
+       },
+       {
+        "Id": "491097739"
+       },
+       {
+        "Id": "706070915"
+       },
+       {
+        "Id": "826384347"
        }
       ]
      },
@@ -643,6 +876,23 @@
        },
        {
         "Id": "793477493"
+       }
+      ]
+     },
+     {
+      "Id": "643838288",
+      "Name": "Play_RND_HappyCrowd",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_RND_HappyCrowd",
+      "GUID": "{A803B854-4469-4B83-A72B-A11DB22FFDCF}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.192875",
+      "DurationMax": "1.8808163",
+      "MediaRefs": [
+       {
+        "Id": "95903692"
+       },
+       {
+        "Id": "115719041"
        }
       ]
      },
@@ -747,6 +997,20 @@
       ]
      },
      {
+      "Id": "1609861566",
+      "Name": "Play_UnhappyCrowd",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_UnhappyCrowd",
+      "GUID": "{BFAC2C78-4221-437D-A23E-200E5DEDFE35}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.1685834",
+      "DurationMax": "2.1685834",
+      "MediaRefs": [
+       {
+        "Id": "841064569"
+       }
+      ]
+     },
+     {
       "Id": "2468645462",
       "Name": "Play_Voice_Complete",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Voice_Complete",
@@ -847,6 +1111,6 @@
     ]
    }
   ],
-  "FileHash": "{9D20FA86-67D9-2FC2-8BAD-001F16EA0AC1}"
+  "FileHash": "{2738C44E-860D-CC3C-674A-6A5347ECB756}"
  }
 }

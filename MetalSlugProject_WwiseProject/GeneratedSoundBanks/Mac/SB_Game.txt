@@ -2,11 +2,15 @@ Event	ID	Name			Wwise Object Path	Notes
 	992244	Play_shotgun			\Default Work Unit\Play_shotgun	
 	402201228	Play_deathh			\Default Work Unit\Play_deathh	
 	461591166	Play_RND_Damage			\Default Work Unit\Play_RND_Damage	
+	643838288	Play_RND_HappyCrowd			\Default Work Unit\Play_RND_HappyCrowd	
 	660042077	Play_Voice_MSL			\Default Work Unit\Play_Voice_MSL	
 	1142278449	Play_pause_fx_C_major			\Default Work Unit\Play_pause_fx_C_major	
+	1317092553	Play_RND_DeathEnnemi			\Default Work Unit\Play_RND_DeathEnnemi	
 	1552520361	Play_RND_Grenade			\Default Work Unit\Play_RND_Grenade	
+	1609861566	Play_UnhappyCrowd			\Default Work Unit\Play_UnhappyCrowd	
 	1717734147	Play_button04_Click			\Default Work Unit\Play_button04_Click	
 	1836769583	Play_Voice_GameOver			\Default Work Unit\Play_Voice_GameOver	
+	1929006870	Play_RND_BurnEnnemi			\Default Work Unit\Play_RND_BurnEnnemi	
 	1977644338	Play_Throw			\Default Work Unit\Play_Throw	
 	2182652466	Play_Voice_ShowBegins			\Default Work Unit\Play_Voice_ShowBegins	
 	2224559797	Play_Voice_Slayer			\Default Work Unit\Play_Voice_Slayer	
@@ -19,6 +23,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3636338178	Play_RND_Footsteps			\Default Work Unit\Play_RND_Footsteps	
 	3682637860	Play_button02_Hovered			\Default Work Unit\Play_button02_Hovered	
 	3954077265	Play_ScoreBip			\Default Work Unit\Play_ScoreBip	
+	3997396046	Play_RND_DamageEnnemi			\Default Work Unit\Play_RND_DamageEnnemi	
 	4015404593	Play_play_fx			\Default Work Unit\Play_play_fx	
 	4191683174	Play_Voice_Killer			\Default Work Unit\Play_Voice_Killer	
 	4260835649	Play_Voice_SuperKiller			\Default Work Unit\Play_Voice_SuperKiller	
@@ -26,12 +31,21 @@ Event	ID	Name			Wwise Object Path	Notes
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	24552206	pain5	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\pain5_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Damage\RND_Damage\pain5		54994
 	28255390	pain2	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\pain2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Damage\RND_Damage\pain2		56266
+	36345925	3yell2	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\3yell2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ennemies\Burn\RND_BurnEnnemi\3yell2		264696
+	37187429	1yell12	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\1yell12_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ennemies\Death\RND_DeathEnnemi\1yell12		264696
 	91812581	Voice-Complete	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\Voice-Complete_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Voices\Voice-Complete		239900
+	95903692	HappyCrowd-02	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\HappyCrowd-02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Crowd\RND_HappyCrowd\HappyCrowd-02		114612
+	108728840	3yell6	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\3yell6_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ennemies\Burn\RND_BurnEnnemi\3yell6		441096
+	115719041	HappyCrowd-01	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\HappyCrowd-01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Crowd\RND_HappyCrowd\HappyCrowd-01		165984
 	140491346	deathh	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\deathh_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Damage\deathh		64942
+	149771623	1yell1	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\1yell1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ennemies\Damage\RND_DamageEnnemi\1yell1		176496
 	167297731	jump_04	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\jump_04_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Jump\RND_Jump\jump_04		47388
+	168316922	3yell14	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\3yell14_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ennemies\Burn\RND_BurnEnnemi\3yell14		352896
+	252825721	3yell9	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\3yell9_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ennemies\Burn\RND_BurnEnnemi\3yell9		352896
 	254471246	die1	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\die1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Damage\RND_Damage\die1		85872
 	303350683	Voice-SuperKiller	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\Voice-SuperKiller_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Voices\Voice-SuperKiller		262940
 	304463379	jump_09	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\jump_09_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Jump\RND_Jump\jump_09		19884
+	307497973	1yell11	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\1yell11_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ennemies\Death\RND_DeathEnnemi\1yell11		352896
 	313206133	cg1	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\cg1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Gun\cg1		102000
 	317564460	pain1	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\pain1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Damage\RND_Damage\pain1		48306
 	364739478	die2	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\die2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Damage\RND_Damage\die2		100458
@@ -39,12 +53,14 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	387129572	stepstone_2	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\stepstone_2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\RND_Footsteps\stepstone_2		73824
 	390553590	stepstone_1	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\stepstone_1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\RND_Footsteps\stepstone_1		73824
 	415919991	jump_10	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\jump_10_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Jump\RND_Jump\jump_10		32662
+	417806910	1yell14	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\1yell14_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ennemies\Death\RND_DeathEnnemi\1yell14		176496
 	420441049	jump_08	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\jump_08_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Jump\RND_Jump\jump_08		28686
 	422341270	Complete	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\Complete_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\EndLevel\Complete		74012
 	426936492	stepstone_4	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\stepstone_4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\RND_Footsteps\stepstone_4		66248
 	439734110	jump_01	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\jump_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Jump\RND_Jump\jump_01		16000
 	483052399	stepstone_3	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\stepstone_3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\RND_Footsteps\stepstone_3		66248
 	488038372	ScoreText	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\ScoreText_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\EndLevel\ScoreText		97052
+	491097739	1yell15	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\1yell15_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ennemies\Death\RND_DeathEnnemi\1yell15		176496
 	516714352	button04_Click	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\button04_Click_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Buttons\button04_Click		78620
 	558141304	pain4	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\pain4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Damage\RND_Damage\pain4		61378
 	562811416	jump_02	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\jump_02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Jump\RND_Jump\jump_02		13454
@@ -55,7 +71,10 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	624522425	Voice-Killer	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\Voice-Killer_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Voices\Voice-Killer		124700
 	662246131	jump_11	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\jump_11_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Jump\RND_Jump\jump_11		29732
 	669099702	explode	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\explode_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Grenade\RND_Grenade\explode		304044
+	697027016	3yell1	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\3yell1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ennemies\Burn\RND_BurnEnnemi\3yell1		441096
+	702231003	1yell6	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\1yell6_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ennemies\Damage\RND_DamageEnnemi\1yell6		176496
 	702497123	pause-fx_C_major	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\pause-fx_C_major_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Pause\pause-fx_C_major		92888
+	706070915	1yell13	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\1yell13_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ennemies\Death\RND_DeathEnnemi\1yell13		176496
 	724277290	shotgun	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\shotgun_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Shotgun\shotgun		213552
 	732053061	Voice-MSL	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\Voice-MSL_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Voices\Voice-MSL		147740
 	735896822	Flamethrower	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\Flamethrower_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Flamer\Flamethrower		885372
@@ -63,13 +82,18 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	793477493	explodemini	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\explodemini_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Grenade\RND_Grenade\explodemini		277392
 	813363617	pain6	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\pain6_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Damage\RND_Damage\pain6		46312
 	826113176	Voice-ShowBegins	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\Voice-ShowBegins_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Voices\Voice-ShowBegins		368924
+	826384347	1yell10	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\1yell10_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ennemies\Death\RND_DeathEnnemi\1yell10		176496
+	836733152	1yell2	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\1yell2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ennemies\Damage\RND_DamageEnnemi\1yell2		176496
+	841064569	UnhappyCrowd	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\UnhappyCrowd_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Crowd\UnhappyCrowd		208280
 	872887986	play-fx	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\play-fx_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Pause\play-fx		53642
 	890768684	Voice-GameOver	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\Voice-GameOver_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Voices\Voice-GameOver		189212
 	911946931	button02_Hovered	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\button02_Hovered_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Buttons\button02_Hovered		101660
+	940501626	1yell7	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\1yell7_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ennemies\Damage\RND_DamageEnnemi\1yell7		264696
 	947724833	jump_06	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\jump_06_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Jump\RND_Jump\jump_06		37768
 	961845821	ScoreBip	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\ScoreBip_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\EndLevel\ScoreBip		32244
 	972355311	stepstone_5	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\stepstone_5_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\RND_Footsteps\stepstone_5		66248
 	973609806	stepstone_7	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\stepstone_7_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\RND_Footsteps\stepstone_7		66248
+	983819369	1yell5	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\1yell5_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ennemies\Damage\RND_DamageEnnemi\1yell5		264696
 	1021440774	pain3	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\pain3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Damage\RND_Damage\pain3		47920
 	1073097978	jump_05	D:\EDUSERVICES\Documents\GitHub\MetalSlugProject\MetalSlugProject_WwiseProject\.cache\Mac\SFX\jump_05_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Jump\RND_Jump\jump_05		54580
 
