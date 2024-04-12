@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{18F60E13-4F08-434F-AB24-A5ED490EDCD8}" SchemaVersion="119" RootDocumentID="{2FBCB658-83FA-4C52-874D-66FD03003EB1}" ParentDocumentID="{2FBCB658-83FA-4C52-874D-66FD03003EB1}">
+	<AudioObjects>
+		<WorkUnit Name="AmbianceMusic" ID="{18F60E13-4F08-434F-AB24-A5ED490EDCD8}" OwnerID="{2FBCB658-83FA-4C52-874D-66FD03003EB1}" PersistMode="Nested">
+			<ChildrenList>
+				<Sound Name="AmbianceMusic" ID="{356B38E7-119B-4EC3-9184-E55784E72181}" ShortID="92323605">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ACE19290-777B-4592-AD23-F5B6C5C388CE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F68B1918-D86C-4C51-8C87-CF4AFF3DD270}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="wyver9_Funny_Chase__8-bit_" ID="{371551E6-E9A5-4619-A988-D907CFD7883D}">
+							<PropertyList>
+								<Property Name="VolumeOffset" Type="Real64">
+									<ValueList>
+										<Value>-24</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>wyver9_Funny_Chase__8-bit_.WAV</AudioFile>
+							<MediaIDList>
+								<MediaID ID="238971508"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="wyver9_Funny_Chase__8-bit_" ID="{371551E6-E9A5-4619-A988-D907CFD7883D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="wyver9_Arcade_Title" ID="{682B3716-084F-42F8-B736-E4BD2ACE79ED}" ShortID="604120528">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ACE19290-777B-4592-AD23-F5B6C5C388CE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F68B1918-D86C-4C51-8C87-CF4AFF3DD270}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="wyver9_Arcade_Title" ID="{08D27AEB-DC1C-4334-BEA3-6A6EDC1A48AE}">
+							<PropertyList>
+								<Property Name="VolumeOffset" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>wyver9_Arcade_Title.WAV</AudioFile>
+							<MediaIDList>
+								<MediaID ID="503643378"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="wyver9_Arcade_Title" ID="{08D27AEB-DC1C-4334-BEA3-6A6EDC1A48AE}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="game-over-38511__mp3cut_net_" ID="{34AF3804-09B9-4DF7-AEB8-668661956944}" ShortID="1061610518">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ACE19290-777B-4592-AD23-F5B6C5C388CE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F68B1918-D86C-4C51-8C87-CF4AFF3DD270}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="game-over-38511__mp3cut_net_" ID="{1FC82E49-CDF2-4D54-A20D-50B9E2BC6D86}">
+							<Language>SFX</Language>
+							<AudioFile>game-over-38511__mp3cut_net_.WAV</AudioFile>
+							<MediaIDList>
+								<MediaID ID="833689227"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="game-over-38511__mp3cut_net_" ID="{1FC82E49-CDF2-4D54-A20D-50B9E2BC6D86}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="BossMusic" ID="{61B338E5-BFBB-4201-9384-CFAE8CFC4D4D}" ShortID="924922205">
+					<PropertyList>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ACE19290-777B-4592-AD23-F5B6C5C388CE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F68B1918-D86C-4C51-8C87-CF4AFF3DD270}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="wyver9_Boss_main_8-bit_" ID="{1C0CE7BC-12B8-4CEA-BD71-64F3E1032B3B}" ShortID="277032285">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ACE19290-777B-4592-AD23-F5B6C5C388CE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F68B1918-D86C-4C51-8C87-CF4AFF3DD270}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="wyver9_Boss_main_8-bit_" ID="{00504D68-1621-4002-9F17-1BC909BA864E}">
+									<PropertyList>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>-24</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>wyver9_Boss_main_8-bit_.WAV</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1040185826"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="wyver9_Boss_main_8-bit_" ID="{00504D68-1621-4002-9F17-1BC909BA864E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="wyver9_Boss_intro_8-bit_" ID="{60EDECFC-10D1-4561-8792-12071BB117FF}" ShortID="170282042">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ACE19290-777B-4592-AD23-F5B6C5C388CE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F68B1918-D86C-4C51-8C87-CF4AFF3DD270}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="wyver9_Boss_intro_8-bit_" ID="{F9C7083E-A5AF-42CB-AE60-BF840041C611}">
+									<PropertyList>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>-20</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>wyver9_Boss_intro_8-bit_.WAV</AudioFile>
+									<MediaIDList>
+										<MediaID ID="57791365"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="wyver9_Boss_intro_8-bit_" ID="{F9C7083E-A5AF-42CB-AE60-BF840041C611}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Playlist">
+							<Reference>
+								<ObjectRef Name="wyver9_Boss_intro_8-bit_" ID="{60EDECFC-10D1-4561-8792-12071BB117FF}" WorkUnitID="{18F60E13-4F08-434F-AB24-A5ED490EDCD8}"/>
+							</Reference>
+							<Reference>
+								<ObjectRef Name="wyver9_Boss_main_8-bit_" ID="{1C0CE7BC-12B8-4CEA-BD71-64F3E1032B3B}" WorkUnitID="{18F60E13-4F08-434F-AB24-A5ED490EDCD8}"/>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

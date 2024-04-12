@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0A8A5DE7-806B-4430-BDB2-C26C152BACCA}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Marvin" ID="{0A8A5DE7-806B-4430-BDB2-C26C152BACCA}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Ennemies" ID="{A6C9FA60-C231-45B4-9AAE-69DA88F1B9CB}" ShortID="1015479085">
+					<ChildrenList>
+						<Folder Name="Damage" ID="{D7A1FDC0-2BFC-4619-8922-B0D336CBEBC9}" ShortID="330686346">
+							<ChildrenList>
+								<RandomSequenceContainer Name="RND_DamageEnnemi" ID="{5D80AC39-B42F-4249-831B-28B9C24A5ED7}" ShortID="958525316">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ACE19290-777B-4592-AD23-F5B6C5C388CE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F68B1918-D86C-4C51-8C87-CF4AFF3DD270}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="1yell5" ID="{3FB1A878-F34D-4BE7-BC16-F285FC0DB9BD}" ShortID="428396601">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ACE19290-777B-4592-AD23-F5B6C5C388CE}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F68B1918-D86C-4C51-8C87-CF4AFF3DD270}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="1yell5" ID="{309495D5-40EC-4052-A866-392FEAA830E8}">
+													<Language>SFX</Language>
+													<AudioFile>1yell5.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="983819369"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="1yell5" ID="{309495D5-40EC-4052-A866-392FEAA830E8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="1yell7" ID="{1DB8CB6E-E7D6-4395-BCE5-3978E18BAE1A}" ShortID="289016042">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ACE19290-777B-4592-AD23-F5B6C5C388CE}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F68B1918-D86C-4C51-8C87-CF4AFF3DD270}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="1yell7" ID="{C6BD9031-41E0-4DFF-81EA-995F7D24BF07}">
+													<Language>SFX</Language>
+													<AudioFile>1yell7.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="940501626"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="1yell7" ID="{C6BD9031-41E0-4DFF-81EA-995F7D24BF07}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="1yell1" ID="{E895AE2D-4824-4924-BDF1-E005FC013A24}" ShortID="12475228">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ACE19290-777B-4592-AD23-F5B6C5C388CE}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F68B1918-D86C-4C51-8C87-CF4AFF3DD270}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="1yell1" ID="{A995A4AF-7A57-4013-8667-1B942BBCF092}">
+													<Language>SFX</Language>
+													<AudioFile>1yell1.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="149771623"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="1yell1" ID="{A995A4AF-7A57-4013-8667-1B942BBCF092}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="1yell2" ID="{799402BF-AEBE-43E5-A3FD-D2B892CC9204}" ShortID="379044832">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ACE19290-777B-4592-AD23-F5B6C5C388CE}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F68B1918-D86C-4C51-8C87-CF4AFF3DD270}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="1yell2" ID="{60B0AA7F-80FB-4F8A-B9DB-FEDF09C0130B}">
+													<Language>SFX</Language>
+													<AudioFile>1yell2.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="836733152"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="1yell2" ID="{60B0AA7F-80FB-4F8A-B9DB-FEDF09C0130B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="1yell6" ID="{7C37DD12-7673-4E90-82A1-217BD8C194AA}" ShortID="376443047">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ACE19290-777B-4592-AD23-F5B6C5C388CE}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F68B1918-D86C-4C51-8C87-CF4AFF3DD270}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="1yell6" ID="{E88272A5-F4CA-4CE8-AC20-2EFEB56ED367}">
+													<Language>SFX</Language>
+													<AudioFile>1yell6.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="702231003"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="1yell6" ID="{E88272A5-F4CA-4CE8-AC20-2EFEB56ED367}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Death" ID="{84C9FA7F-44C4-4EFD-BC0B-BEBDB176FA3E}" ShortID="680234000">
+							<ChildrenList>
+								<RandomSequenceContainer Name="RND_DeathEnnemi" ID="{A71F6DC7-F1F4-4DF7-AE14-E7E7FFFD1EF8}" ShortID="311026342">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ACE19290-777B-4592-AD23-F5B6C5C388CE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F68B1918-D86C-4C51-8C87-CF4AFF3DD270}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="1yell12" ID="{C6226920-11E6-49E9-BE29-74BC9B6364A2}" ShortID="439071200">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ACE19290-777B-4592-AD23-F5B6C5C388CE}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F68B1918-D86C-4C51-8C87-CF4AFF3DD270}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="1yell12" ID="{070D8B00-D65E-4997-A4BD-61789AE0315B}">
+													<Language>SFX</Language>
+													<AudioFile>1yell12.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="37187429"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="1yell12" ID="{070D8B00-D65E-4997-A4BD-61789AE0315B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="1yell14" ID="{9EC6B4DB-520A-4635-9FF5-80F1FC3E03FD}" ShortID="272207816">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ACE19290-777B-4592-AD23-F5B6C5C388CE}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F68B1918-D86C-4C51-8C87-CF4AFF3DD270}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="1yell14" ID="{67E9297B-A569-4962-A3C1-5F97200F556F}">
+													<Language>SFX</Language>
+													<AudioFile>1yell14.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="417806910"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="1yell14" ID="{67E9297B-A569-4962-A3C1-5F97200F556F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="1yell13" ID="{AF8A7939-43EE-4FD8-8469-0042A8FE3210}" ShortID="68559651">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ACE19290-777B-4592-AD23-F5B6C5C388CE}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F68B1918-D86C-4C51-8C87-CF4AFF3DD270}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="1yell13" ID="{852ADFCD-35C8-4458-B26D-B6444A265A81}">
+													<Language>SFX</Language>
+													<AudioFile>1yell13.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="706070915"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="1yell13" ID="{852ADFCD-35C8-4458-B26D-B6444A265A81}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="1yell10" ID="{255BB361-3ADE-47F9-BC66-4BBBAAD0A8FE}" ShortID="546614723">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ACE19290-777B-4592-AD23-F5B6C5C388CE}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F68B1918-D86C-4C51-8C87-CF4AFF3DD270}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="1yell10" ID="{A6D6FEB4-2C43-4F1E-ACA0-1CAAA5AD5017}">
+													<Language>SFX</Language>
+													<AudioFile>1yell10.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="826384347"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="1yell10" ID="{A6D6FEB4-2C43-4F1E-ACA0-1CAAA5AD5017}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="1yell11" ID="{AA1F8E00-19DE-49FC-8D71-7D02D194BD2C}" ShortID="861267151">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ACE19290-777B-4592-AD23-F5B6C5C388CE}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F68B1918-D86C-4C51-8C87-CF4AFF3DD270}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="1yell11" ID="{6A6AD672-AAEA-4024-8C8E-57A3D6B5CC96}">
+													<Language>SFX</Language>
+													<AudioFile>1yell11.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="307497973"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="1yell11" ID="{6A6AD672-AAEA-4024-8C8E-57A3D6B5CC96}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="1yell15" ID="{3CDCBEF9-7654-4561-BC06-05A0C8EE5F0C}" ShortID="367471876">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ACE19290-777B-4592-AD23-F5B6C5C388CE}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F68B1918-D86C-4C51-8C87-CF4AFF3DD270}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="1yell15" ID="{4BC46590-8559-4B6C-AAF4-1670EC4C57BD}">
+													<Language>SFX</Language>
+													<AudioFile>1yell15.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="491097739"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="1yell15" ID="{4BC46590-8559-4B6C-AAF4-1670EC4C57BD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Burn" ID="{4FF0CC6C-52C5-4FEA-AFA7-3FE5CFC8A59F}" ShortID="277872576">
+							<ChildrenList>
+								<RandomSequenceContainer Name="RND_BurnEnnemi" ID="{FC5C737B-8667-418B-94D3-4839305FEB02}" ShortID="819255930">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ACE19290-777B-4592-AD23-F5B6C5C388CE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F68B1918-D86C-4C51-8C87-CF4AFF3DD270}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="3yell1" ID="{F01D5AF8-E3E8-4748-947C-239113AFB766}" ShortID="14525876">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ACE19290-777B-4592-AD23-F5B6C5C388CE}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F68B1918-D86C-4C51-8C87-CF4AFF3DD270}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="3yell1" ID="{625861A9-A259-4DBE-A988-F7B88D2EF682}">
+													<Language>SFX</Language>
+													<AudioFile>3yell1.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="697027016"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="3yell1" ID="{625861A9-A259-4DBE-A988-F7B88D2EF682}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="3yell2" ID="{32B677F0-8911-45E0-BB98-41F86DBDE761}" ShortID="610612694">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ACE19290-777B-4592-AD23-F5B6C5C388CE}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F68B1918-D86C-4C51-8C87-CF4AFF3DD270}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="3yell2" ID="{7DBE22FA-CC9F-47D2-9F63-BCAAA6C517DF}">
+													<Language>SFX</Language>
+													<AudioFile>3yell2.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="36345925"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="3yell2" ID="{7DBE22FA-CC9F-47D2-9F63-BCAAA6C517DF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="3yell6" ID="{FB9554EB-5D5B-4782-BA2F-9F94F6AAA8BA}" ShortID="2588368">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ACE19290-777B-4592-AD23-F5B6C5C388CE}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F68B1918-D86C-4C51-8C87-CF4AFF3DD270}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="3yell6" ID="{4338550F-1D5E-4483-97A5-C63C8EF6CE4F}">
+													<Language>SFX</Language>
+													<AudioFile>3yell6.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="108728840"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="3yell6" ID="{4338550F-1D5E-4483-97A5-C63C8EF6CE4F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="3yell9" ID="{2FE2E4DC-A928-45C1-B69A-2E5FC8DF935F}" ShortID="388646807">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ACE19290-777B-4592-AD23-F5B6C5C388CE}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F68B1918-D86C-4C51-8C87-CF4AFF3DD270}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="3yell9" ID="{13AC5A0A-AED2-404C-8361-40FAE485E328}">
+													<Language>SFX</Language>
+													<AudioFile>3yell9.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="252825721"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="3yell9" ID="{13AC5A0A-AED2-404C-8361-40FAE485E328}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="3yell14" ID="{90A87089-AED0-4388-802A-9104DB512462}" ShortID="1072653548">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ACE19290-777B-4592-AD23-F5B6C5C388CE}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F68B1918-D86C-4C51-8C87-CF4AFF3DD270}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="3yell14" ID="{7544F064-67B2-4A04-A404-D1B69040C7D9}">
+													<Language>SFX</Language>
+													<AudioFile>3yell14.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="168316922"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="3yell14" ID="{7544F064-67B2-4A04-A404-D1B69040C7D9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Grenade" ID="{DC867A2A-E09C-444D-90D9-4108551B0A87}" ShortID="368336694">
+					<ChildrenList>
+						<Sound Name="Throw" ID="{D6C68AA2-604B-4FB8-BEEE-39B6BBF7AD06}" ShortID="878243183">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ACE19290-777B-4592-AD23-F5B6C5C388CE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F68B1918-D86C-4C51-8C87-CF4AFF3DD270}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Throw" ID="{E46EDD98-ADC4-4D93-A82C-871040F9B400}">
+									<PropertyList>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>-14</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Throw.WAV</AudioFile>
+									<MediaIDList>
+										<MediaID ID="576049388"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Throw" ID="{E46EDD98-ADC4-4D93-A82C-871040F9B400}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="RND_Grenade" ID="{B0081C6B-3AB6-4042-B8FE-3BC81E3C8BC9}" ShortID="298911774">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ACE19290-777B-4592-AD23-F5B6C5C388CE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F68B1918-D86C-4C51-8C87-CF4AFF3DD270}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="explodemini" ID="{E436E81B-184F-4FC2-BDCF-8DF6468D302B}" ShortID="710356014">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ACE19290-777B-4592-AD23-F5B6C5C388CE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F68B1918-D86C-4C51-8C87-CF4AFF3DD270}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="explodemini" ID="{39DC52DD-F2D0-4726-91C0-354F98127157}">
+											<Language>SFX</Language>
+											<AudioFile>explodemini.WAV</AudioFile>
+											<MediaIDList>
+												<MediaID ID="793477493"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="explodemini" ID="{39DC52DD-F2D0-4726-91C0-354F98127157}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="explode" ID="{CCD8A9A2-EFCA-4312-A548-063316DE6DFD}" ShortID="84419778">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ACE19290-777B-4592-AD23-F5B6C5C388CE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F68B1918-D86C-4C51-8C87-CF4AFF3DD270}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="explode" ID="{2B9A051D-F4D9-48CE-A0F8-ABFAD9BC44E4}">
+											<Language>SFX</Language>
+											<AudioFile>explode.WAV</AudioFile>
+											<MediaIDList>
+												<MediaID ID="669099702"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="explode" ID="{2B9A051D-F4D9-48CE-A0F8-ABFAD9BC44E4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

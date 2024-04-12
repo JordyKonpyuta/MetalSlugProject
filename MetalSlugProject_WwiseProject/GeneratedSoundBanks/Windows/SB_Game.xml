@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2799568783" Type="User" GUID="{C536395D-CDD8-4F8A-BA81-3FCB1CB3B6CA}" Language="SFX" Hash="{B2FBF7C7-556B-8B87-F5AA-E3E28604CE32}">
+		<SoundBank Id="2799568783" Type="User" GUID="{C536395D-CDD8-4F8A-BA81-3FCB1CB3B6CA}" Language="SFX" Hash="{9B106517-00E7-3115-4F2E-47F8002074D7}">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_Game</ObjectPath>
 			<ShortName>SB_Game</ShortName>
 			<Path>SB_Game.bnk</Path>
@@ -21,6 +21,10 @@
 				<File Id="37187429" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>1yell12.WAV</ShortName>
 					<CachePath>SFX/1yell12_818F3B66.wem</CachePath>
+				</File>
+				<File Id="57791365" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>wyver9_Boss_intro_8-bit_.WAV</ShortName>
+					<CachePath>SFX/wyver9_Boss_intro_8-bit__818F3B66.wem</CachePath>
 				</File>
 				<File Id="91812581" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Voice-Complete.WAV</ShortName>
@@ -53,6 +57,10 @@
 				<File Id="168316922" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>3yell14.WAV</ShortName>
 					<CachePath>SFX/3yell14_818F3B66.wem</CachePath>
+				</File>
+				<File Id="238971508" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>wyver9_Funny_Chase__8-bit_.WAV</ShortName>
+					<CachePath>SFX/wyver9_Funny_Chase__8-bit__FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="252825721" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>3yell9.WAV</ShortName>
@@ -146,6 +154,10 @@
 					<ShortName>1yell15.WAV</ShortName>
 					<CachePath>SFX/1yell15_818F3B66.wem</CachePath>
 				</File>
+				<File Id="503643378" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>wyver9_Arcade_Title.WAV</ShortName>
+					<CachePath>SFX/wyver9_Arcade_Title_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="516714352" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>button04_Click.WAV</ShortName>
 					<CachePath>SFX/button04_Click_818F3B66.wem</CachePath>
@@ -238,6 +250,10 @@
 					<ShortName>1yell10.WAV</ShortName>
 					<CachePath>SFX/1yell10_818F3B66.wem</CachePath>
 				</File>
+				<File Id="833689227" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>game-over-38511__mp3cut_net_.WAV</ShortName>
+					<CachePath>SFX/game-over-38511__mp3cut_net__818F3B66.wem</CachePath>
+				</File>
 				<File Id="836733152" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>1yell2.WAV</ShortName>
 					<CachePath>SFX/1yell2_818F3B66.wem</CachePath>
@@ -294,12 +310,27 @@
 					<ShortName>pain3.WAV</ShortName>
 					<CachePath>SFX/pain3_818F3B66.wem</CachePath>
 				</File>
+				<File Id="1040185826" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>wyver9_Boss_main_8-bit_.WAV</ShortName>
+					<CachePath>SFX/wyver9_Boss_main_8-bit__FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="1073097978" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>jump_05.WAV</ShortName>
 					<CachePath>SFX/jump_05_818F3B66.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
+				<Event Id="633778151" Name="Play_AmbianceMusic" ObjectPath="\Events\Default Work Unit\Play_AmbianceMusic" GUID="{E5899662-58A7-4811-9AC2-4CF9C0BE0545}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="238971508"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3463024606" Name="Play_BossMusic" ObjectPath="\Events\Default Work Unit\Play_BossMusic" GUID="{E377E441-300E-4927-85C2-9D7B347A1F39}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="57791365"/>
+						<MediaRef Id="1040185826"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3682637860" Name="Play_button02_Hovered" ObjectPath="\Events\Default Work Unit\Play_button02_Hovered" GUID="{1BD44F81-6C0B-4DD8-B951-C11C0C481B2E}" DurationType="OneShot" DurationMin="0.57575965" DurationMax="0.57575965">
 					<MediaRefs>
 						<MediaRef Id="911946931"/>
@@ -328,6 +359,11 @@
 				<Event Id="2844775840" Name="Play_Flamethrower" ObjectPath="\Events\Default Work Unit\Play_Flamethrower" GUID="{FDE6EAC1-C96A-4A58-A978-BE6A4D1734BD}" DurationType="OneShot" DurationMin="5.0185714" DurationMax="5.0185714">
 					<MediaRefs>
 						<MediaRef Id="735896822"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2856401155" Name="Play_game_over_38511__mp3cut_net_" ObjectPath="\Events\Default Work Unit\Play_game_over_38511__mp3cut_net_" GUID="{FB3069D6-8F4E-46D1-AEBB-6DA8B31E1046}" DurationType="OneShot" DurationMin="4.1012244" DurationMax="4.1012244">
+					<MediaRefs>
+						<MediaRef Id="833689227"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1142278449" Name="Play_pause_fx_C_major" ObjectPath="\Events\Default Work Unit\Play_pause_fx_C_major" GUID="{E5934EEC-D7D7-4721-9E87-58B1ECBFA087}" DurationType="OneShot" DurationMin="0.96659374" DurationMax="0.96659374">
@@ -380,7 +416,7 @@
 						<MediaRef Id="826384347"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3636338178" Name="Play_RND_Footsteps" ObjectPath="\Events\Default Work Unit\Play_RND_Footsteps" GUID="{53E21688-E5B6-494C-9B5E-48F4AF481FCA}" DurationType="OneShot" DurationMin="0.37501132" DurationMax="0.41795918">
+				<Event Id="3636338178" Name="Play_RND_Footsteps" ObjectPath="\Events\Default Work Unit\Play_RND_Footsteps" GUID="{53E21688-E5B6-494C-9B5E-48F4AF481FCA}" MaxAttenuation="3000" DurationType="OneShot" DurationMin="0.37501132" DurationMax="0.41795918">
 					<MediaRefs>
 						<MediaRef Id="386429301"/>
 						<MediaRef Id="387129572"/>
@@ -509,8 +545,25 @@
 						<MediaRef Id="303350683"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1578766758" Name="Play_wyver9_Arcade_Title" ObjectPath="\Events\Default Work Unit\Play_wyver9_Arcade_Title" GUID="{0B6A3B80-B929-4978-99D5-8D7044D786AB}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="503643378"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2064505269" Name="Stop_AmbianceMusic" ObjectPath="\Events\Default Work Unit\Stop_AmbianceMusic" GUID="{AEF5ADB8-7B4A-4708-937D-763073DFC8AE}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="656877296" Name="Stop_BossMusic" ObjectPath="\Events\Default Work Unit\Stop_BossMusic" GUID="{9D9045C8-E4DB-4B51-9997-E73E67BBB270}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="57791365"/>
+						<MediaRef Id="1040185826"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4117558268" Name="Stop_wyver9_Arcade_Title" ObjectPath="\Events\Default Work Unit\Stop_wyver9_Arcade_Title" GUID="{B91F4754-9783-4FBF-9997-3C03F968110F}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="503643378"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{0F08B103-1C9E-C5F1-17DE-993C7B63B0DF}</FileHash>
+	<FileHash>{EBBE0F5B-258C-9DE5-D650-D86B91F47EF9}</FileHash>
 </SoundBanksInfo>

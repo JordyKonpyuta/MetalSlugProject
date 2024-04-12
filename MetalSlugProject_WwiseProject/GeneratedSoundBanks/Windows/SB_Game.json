@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{C536395D-CDD8-4F8A-BA81-3FCB1CB3B6CA}",
     "Language": "SFX",
-    "Hash": "{B2FBF7C7-556B-8B87-F5AA-E3E28604CE32}",
+    "Hash": "{9B106517-00E7-3115-4F2E-47F8002074D7}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Game",
     "ShortName": "SB_Game",
     "Path": "SB_Game.bnk",
@@ -46,6 +46,14 @@
       "Location": "Memory",
       "ShortName": "1yell12.WAV",
       "CachePath": "SFX/1yell12_818F3B66.wem"
+     },
+     {
+      "Id": "57791365",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "wyver9_Boss_intro_8-bit_.WAV",
+      "CachePath": "SFX/wyver9_Boss_intro_8-bit__818F3B66.wem"
      },
      {
       "Id": "91812581",
@@ -110,6 +118,14 @@
       "Location": "Memory",
       "ShortName": "3yell14.WAV",
       "CachePath": "SFX/3yell14_818F3B66.wem"
+     },
+     {
+      "Id": "238971508",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "wyver9_Funny_Chase__8-bit_.WAV",
+      "CachePath": "SFX/wyver9_Funny_Chase__8-bit__FBC78EF0.wem"
      },
      {
       "Id": "252825721",
@@ -296,6 +312,14 @@
       "CachePath": "SFX/1yell15_818F3B66.wem"
      },
      {
+      "Id": "503643378",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "wyver9_Arcade_Title.WAV",
+      "CachePath": "SFX/wyver9_Arcade_Title_FBC78EF0.wem"
+     },
+     {
       "Id": "516714352",
       "Language": "SFX",
       "Streaming": "false",
@@ -480,6 +504,14 @@
       "CachePath": "SFX/1yell10_818F3B66.wem"
      },
      {
+      "Id": "833689227",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "game-over-38511__mp3cut_net_.WAV",
+      "CachePath": "SFX/game-over-38511__mp3cut_net__818F3B66.wem"
+     },
+     {
       "Id": "836733152",
       "Language": "SFX",
       "Streaming": "false",
@@ -592,6 +624,14 @@
       "CachePath": "SFX/pain3_818F3B66.wem"
      },
      {
+      "Id": "1040185826",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "wyver9_Boss_main_8-bit_.WAV",
+      "CachePath": "SFX/wyver9_Boss_main_8-bit__FBC78EF0.wem"
+     },
+     {
       "Id": "1073097978",
       "Language": "SFX",
       "Streaming": "false",
@@ -601,6 +641,33 @@
      }
     ],
     "Events": [
+     {
+      "Id": "633778151",
+      "Name": "Play_AmbianceMusic",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_AmbianceMusic",
+      "GUID": "{E5899662-58A7-4811-9AC2-4CF9C0BE0545}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "238971508"
+       }
+      ]
+     },
+     {
+      "Id": "3463024606",
+      "Name": "Play_BossMusic",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_BossMusic",
+      "GUID": "{E377E441-300E-4927-85C2-9D7B347A1F39}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "57791365"
+       },
+       {
+        "Id": "1040185826"
+       }
+      ]
+     },
      {
       "Id": "3682637860",
       "Name": "Play_button02_Hovered",
@@ -682,6 +749,20 @@
       "MediaRefs": [
        {
         "Id": "735896822"
+       }
+      ]
+     },
+     {
+      "Id": "2856401155",
+      "Name": "Play_game_over_38511__mp3cut_net_",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_game_over_38511__mp3cut_net_",
+      "GUID": "{FB3069D6-8F4E-46D1-AEBB-6DA8B31E1046}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.1012244",
+      "DurationMax": "4.1012244",
+      "MediaRefs": [
+       {
+        "Id": "833689227"
        }
       ]
      },
@@ -834,6 +915,7 @@
       "Name": "Play_RND_Footsteps",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_RND_Footsteps",
       "GUID": "{53E21688-E5B6-494C-9B5E-48F4AF481FCA}",
+      "MaxAttenuation": "3000",
       "DurationType": "OneShot",
       "DurationMin": "0.37501132",
       "DurationMax": "0.41795918",
@@ -1193,10 +1275,59 @@
         "Id": "303350683"
        }
       ]
+     },
+     {
+      "Id": "1578766758",
+      "Name": "Play_wyver9_Arcade_Title",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_wyver9_Arcade_Title",
+      "GUID": "{0B6A3B80-B929-4978-99D5-8D7044D786AB}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "503643378"
+       }
+      ]
+     },
+     {
+      "Id": "2064505269",
+      "Name": "Stop_AmbianceMusic",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_AmbianceMusic",
+      "GUID": "{AEF5ADB8-7B4A-4708-937D-763073DFC8AE}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "656877296",
+      "Name": "Stop_BossMusic",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_BossMusic",
+      "GUID": "{9D9045C8-E4DB-4B51-9997-E73E67BBB270}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "57791365"
+       },
+       {
+        "Id": "1040185826"
+       }
+      ]
+     },
+     {
+      "Id": "4117558268",
+      "Name": "Stop_wyver9_Arcade_Title",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_wyver9_Arcade_Title",
+      "GUID": "{B91F4754-9783-4FBF-9997-3C03F968110F}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "503643378"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{CF5BD4A0-6C84-656A-9A33-2A5220ABC9A9}"
+  "FileHash": "{1FB9E46B-09E5-EB1A-04C5-FAD73658E668}"
  }
 }

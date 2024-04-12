@@ -6,21 +6,38 @@
 				<SoundBank Name="SB_Game" ID="{C536395D-CDD8-4F8A-BA81-3FCB1CB3B6CA}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_cg1" ID="{76F5D04F-1D10-4031-BC95-475C2A11C5A8}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Voice_ShootRate" ID="{2F72AED6-A6E6-4128-9408-1C4C8C7FF22A}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Voice_Pistol" ID="{7726294D-573B-41B3-A04C-3C7307CC395A}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_shotgun" ID="{C9171B5B-46D4-4322-8162-AC4FFAEBC47D}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Voice_GameOver" ID="{1D5AC2D2-AA23-435A-BA17-6CCB23B05735}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_UnhappyCrowd" ID="{BFAC2C78-4221-437D-A23E-200E5DEDFE35}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Complete" ID="{E60D6359-2B2B-4389-B399-AFFA177C8294}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Throw" ID="{8974C550-CEA4-4535-94CE-466B8149018C}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Voice_AssaultGun" ID="{16E3CCA0-1F79-4542-9829-F5972B0E0BDE}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Voice_Shotgun" ID="{533A871C-4D53-45C5-ACF8-D04EF5D05497}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_game_over_38511__mp3cut_net_" ID="{FB3069D6-8F4E-46D1-AEBB-6DA8B31E1046}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_AmbianceMusic" ID="{AEF5ADB8-7B4A-4708-937D-763073DFC8AE}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_pause_fx_C_major" ID="{E5934EEC-D7D7-4721-9E87-58B1ECBFA087}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_play_fx" ID="{10E3B8AB-DFDD-4724-825D-38E14F8F0246}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AmbianceMusic" ID="{E5899662-58A7-4811-9AC2-4CF9C0BE0545}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Voice_Flamethrower" ID="{0DABDA48-A7BF-4825-BFDB-7750F185B9BA}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_RND_Grenade" ID="{B6A779BF-DD9C-4870-97AC-65660028E0A5}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Voice_MSL" ID="{49FDBA1A-27D3-48E1-BF04-E9E0C662E3D9}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_BossMusic" ID="{E377E441-300E-4927-85C2-9D7B347A1F39}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_RND_Footsteps" ID="{53E21688-E5B6-494C-9B5E-48F4AF481FCA}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Voice_Killer" ID="{70039A1B-9F64-496F-B0CD-C0B2ADFA5D74}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_wyver9_Arcade_Title" ID="{0B6A3B80-B929-4978-99D5-8D7044D786AB}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_RND_DeathEnnemi" ID="{6649CF6E-F9F3-49E1-8A97-EB61CCE65325}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Flamethrower" ID="{FDE6EAC1-C96A-4A58-A978-BE6A4D1734BD}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_button04_Click" ID="{00999758-BF8B-4A7C-BDA9-CED940A9C1D7}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Voice_MovementSpeed" ID="{198B2D09-EEFE-4A9B-A5E0-16999D149C6F}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_RND_BurnEnnemi" ID="{227836EB-5518-4AF7-8BB6-927F9E05C227}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_BossMusic" ID="{9D9045C8-E4DB-4B51-9997-E73E67BBB270}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_RND_HappyCrowd" ID="{A803B854-4469-4B83-A72B-A11DB22FFDCF}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Voice_SuperKiller" ID="{214A2A30-F610-4BED-BC05-6ABC788D6E7F}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_ScoreBip" ID="{9B492C15-A534-4BF1-9FA9-EE74EC665241}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_ScoreText" ID="{AC9A71C1-8882-4C35-92DA-E81625C853E4}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_RND_DamageEnnemi" ID="{FDC329C3-DA46-4C74-8857-EFF5B210ED78}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_RND_Jump" ID="{B315831C-E542-4D2A-8E60-9BE11C3A7008}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Voice_Slayer" ID="{86C0E990-D9A7-4D7B-BE94-FF7F052A602C}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_button02_Hovered" ID="{1BD44F81-6C0B-4DD8-B951-C11C0C481B2E}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
@@ -28,6 +45,7 @@
 						<ObjectRef Name="Play_deathh" ID="{DF0298D5-CC79-4E32-AE20-00013D097FE9}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Voice_Complete" ID="{7FFF4057-2059-4E64-9B95-D56E1FC16521}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Voice_ShowBegins" ID="{B551E088-507B-4E65-A62E-26047BDC2188}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_wyver9_Arcade_Title" ID="{B91F4754-9783-4FBF-9997-3C03F968110F}" WorkUnitID="{22B69634-230A-4751-A31E-08E79920D81D}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
